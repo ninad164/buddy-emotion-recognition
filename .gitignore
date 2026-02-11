@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Envs / IDE
+venv/
+.venv/
+.vscode/
+stt/stt_env/
+**/*_env/
+**/env/
+
+# Secrets / temp
+.env
+temp/
+tmp/
+logs/
+docs/
+*.wav
+
+# Large model files
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+Meta-Llama*/
+Mistral*/
+llama-cpp-python/
+oak-examples/
+models/*.blob
+intel/
+notepads/
